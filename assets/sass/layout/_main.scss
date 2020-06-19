@@ -1,0 +1,146 @@
+.videos_populares{
+
+display: grid;
+grid-gap: 10px;
+padding: 20px 40px;
+
+}
+
+
+.videos_populares p{
+margin-top: 5px;
+margin-bottom: 0;
+font-weight: bold;
+padding-bottom: 5px;
+
+
+}
+
+
+
+
+
+.videos__titulo{
+
+padding-top: 30px;
+
+}
+
+
+
+.videos__titulo h1{
+
+padding-left: 40px;
+font-size: 30px;
+}
+
+.video1{
+
+background-image: url(./../img/image-1.png);
+@include videos_conf;
+
+}
+
+.video2{
+
+    
+background-image: url(./../img/image-2.png);
+@include videos_conf;
+
+}
+
+
+
+.video3{
+background-image: url(./../img/image-3.png);
+@include videos_conf;
+
+
+}
+
+
+
+
+
+.video4{
+background-image: url(./../img/image-4.png);
+@include videos_conf;
+
+}
+
+
+
+
+
+
+
+    .video5{
+    background-image: url(./../img/image-5.png);
+   @include videos_conf;
+
+                    }
+
+    
+
+
+        .video6{
+        background-image: url(./../img/image-6.png);
+       @include videos_conf;
+
+
+                    }
+
+
+
+
+ .video7{
+     
+background-image: url(./../img/image-7.png);
+@include videos_conf;
+}
+
+
+  .video8{
+      
+background-image: url(./../img/image-8.png);
+@include videos_conf;
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+.videos_populares{
+
+display: grid;
+grid-gap: 10px;
+padding: 20px ;
+
+}
+
+.videos__titulo{
+
+padding-top: 10px;
+
+}
+
+
+
+
+.videos__titulo h1{
+
+  text-align: center;
+  font-size: 25px;
+  padding-left: 0;
+}
+
+
+
+
+}
