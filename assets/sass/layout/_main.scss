@@ -34,14 +34,14 @@ padding-left: 40px;
 font-size: 30px;
 }
 
-.video1{
+.videos__1{
 
 background-image: url(./../img/image-1.png);
 @include videos_conf;
 
 }
 
-.video2{
+.videos__2{
 
     
 background-image: url(./../img/image-2.png);
@@ -51,7 +51,7 @@ background-image: url(./../img/image-2.png);
 
 
 
-.video3{
+.videos__3{
 background-image: url(./../img/image-3.png);
 @include videos_conf;
 
@@ -62,7 +62,7 @@ background-image: url(./../img/image-3.png);
 
 
 
-.video4{
+.videos__4{
 background-image: url(./../img/image-4.png);
 @include videos_conf;
 
@@ -74,7 +74,7 @@ background-image: url(./../img/image-4.png);
 
 
 
-    .video5{
+    .videos__5{
     background-image: url(./../img/image-5.png);
    @include videos_conf;
 
@@ -83,7 +83,7 @@ background-image: url(./../img/image-4.png);
     
 
 
-        .video6{
+        .videos__6{
         background-image: url(./../img/image-6.png);
        @include videos_conf;
 
@@ -93,14 +93,14 @@ background-image: url(./../img/image-4.png);
 
 
 
- .video7{
+ .videos__7{
      
 background-image: url(./../img/image-7.png);
 @include videos_conf;
 }
 
 
-  .video8{
+  .videos__8{
       
 background-image: url(./../img/image-8.png);
 @include videos_conf;

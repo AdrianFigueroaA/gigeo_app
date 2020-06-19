@@ -12,9 +12,10 @@
   background-position: center;
   width: 100%;
   height: 200px;
+  margin-top: 100px;
 }
 
-.imagen__perfil {
+.container__imagen {
   background-image: url(./../img/profile-image.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,12 +35,12 @@
   padding-left: 45px;
 }
 
-.contacto2 {
+.container {
   display: flex;
   align-items: center;
 }
 
-.yuki {
+.container__yuki {
   padding-left: 20px;
   display: flex;
   flex-direction: column;
@@ -47,21 +48,17 @@
   padding-top: 9px;
 }
 
-.yuki p {
+.container__yuki p {
   margin-bottom: 0;
   font-size: 24px;
   font-weight: bold;
-}
-
-.yuki p span {
-  margin-bottom: 0;
-  font-size: 15px;
 }
 
 span {
   color: gray;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
+  font-size: 15px;
 }
 
 .button {
@@ -70,7 +67,7 @@ span {
 
 @media only screen and (max-width: 600px) {
   .header {
-    height: 90px;
+    height: 100px;
   }
 
   .contacto {
@@ -78,25 +75,34 @@ span {
     border-bottom: none;
   }
 
-  .yuki p {
+  .container__yuki p {
     margin-bottom: 0;
     font-size: 24px;
     font-weight: bold;
   }
 
-  .yuki p span {
+  .container__yuki p span {
     margin-bottom: 0;
     font-size: 15px;
     font-weight: lighter;
   }
+
+  .navbar-light .navbar-toggler {
+    border-color: transparent !important;
+  }
 }
 .navbar {
   padding: 0 20px;
+  width: 100% !important;
+  z-index: 1 !important;
+  position: fixed !important;
+  top: 0 !important;
 }
 
 .navbar-expand-lg .navbar-collapse {
-  padding-right: 100px;
+  padding-right: 50px;
   justify-content: right;
+  font-size: 24px;
 }
 
 .navbar-light .navbar-brand {
@@ -131,56 +137,56 @@ sub, sup {
   font-size: 30px;
 }
 
-.video1 {
+.videos__1 {
   background-image: url(./../img/image-1.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 150px;
 }
 
-.video2 {
+.videos__2 {
   background-image: url(./../img/image-2.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 150px;
 }
 
-.video3 {
+.videos__3 {
   background-image: url(./../img/image-3.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 150px;
 }
 
-.video4 {
+.videos__4 {
   background-image: url(./../img/image-4.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 150px;
 }
 
-.video5 {
+.videos__5 {
   background-image: url(./../img/image-5.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 150px;
 }
 
-.video6 {
+.videos__6 {
   background-image: url(./../img/image-6.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 150px;
 }
 
-.video7 {
+.videos__7 {
   background-image: url(./../img/image-7.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 150px;
 }
 
-.video8 {
+.videos__8 {
   background-image: url(./../img/image-8.png);
   background-repeat: no-repeat;
   background-size: cover;
