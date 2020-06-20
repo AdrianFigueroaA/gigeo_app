@@ -207,6 +207,10 @@ sub, sup {
     padding-left: 0;
   }
 }
+.button {
+  text-align: right !important;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
