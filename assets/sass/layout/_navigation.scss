@@ -29,3 +29,13 @@ sub, sup {
 }
 
 
+@media only screen and (max-width: 600px) {
+
+
+.navbar-light .navbar-toggler {
+    
+    border-color: transparent !important;
+}
+
+
+}

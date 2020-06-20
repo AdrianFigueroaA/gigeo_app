@@ -55,21 +55,10 @@ padding-top: 9px;
 
 
 
-span{
-
-color: $colorspan;
-font-weight:normal;
-font-family: $montserrat;
-    font-size: 15px;
-}
 
 
 
-.button{
 
-text-align: right;
-
-}
 
 @media only screen and (max-width: 600px) {
   
@@ -101,10 +90,6 @@ border-bottom: none;
 }
 
 
-.navbar-light .navbar-toggler {
-    
-    border-color: transparent !important;
-}
 
 }
 

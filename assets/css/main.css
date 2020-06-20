@@ -1,4 +1,11 @@
 @charset "UTF-8";
+span {
+  color: gray;
+  font-weight: normal;
+  font-family: "montserrat", "sans-serif";
+  font-size: 15px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -54,17 +61,6 @@
   font-weight: bold;
 }
 
-span {
-  color: gray;
-  font-weight: normal;
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-}
-
-.button {
-  text-align: right;
-}
-
 @media only screen and (max-width: 600px) {
   .header {
     height: 100px;
@@ -85,10 +81,6 @@ span {
     margin-bottom: 0;
     font-size: 15px;
     font-weight: lighter;
-  }
-
-  .navbar-light .navbar-toggler {
-    border-color: transparent !important;
   }
 }
 .navbar {
@@ -115,6 +107,11 @@ sub, sup {
   vertical-align: super !important;
 }
 
+@media only screen and (max-width: 600px) {
+  .navbar-light .navbar-toggler {
+    border-color: transparent !important;
+  }
+}
 .videos_populares {
   display: grid;
   grid-gap: 10px;
